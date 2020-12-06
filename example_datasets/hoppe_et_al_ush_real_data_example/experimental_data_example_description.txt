@@ -1,0 +1,5 @@
+ush_model_demo_not_pre_trained.py trains the model and outputs a results file (result_694826350). Running this locally will take longer than the short example. ush_model_demo_pre_trained.py loads pre-stored parameters instead.
+
+Results are output in result_963456000.csv. The seed has been set to correspond to the ML result, which has been pre-calculated. Normally process_model_output.py would be used to compile results files together and find the ML result (see the synthetic long gene example). 
+
+single_cell_calculations.py uses the inferred ML parameters to create single parameters, stored in SINGLE_CELL_PARAMETERS.csv. The ML posterior (SINGLE_CELL_POSTERIOR.csv) and corresponding fluorescent signals (SINGLE_CELL_SIGNALS.csv) are also output. 

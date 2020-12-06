@@ -1,0 +1,9 @@
+See individual folders for detailed descriptions.
+
+synthetic_short_gene_example trains the model using synthetic data corresponding to a 'short' gene length / window size - this means that the example can be run on a laptop in around 5 minutes.
+
+synthetic_long_gene_example is similar to above, but with a longer gene.
+
+hoppe_et_al_ush_real_data_example uses experimental Drosophila data from Hoppe et al.
+
+reproduce_paper_figures produces the plots of running time comparison and parameter convergence from the paper. 

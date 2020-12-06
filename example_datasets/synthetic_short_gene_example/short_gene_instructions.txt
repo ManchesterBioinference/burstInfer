@@ -1,0 +1,7 @@
+very_short_gene_w5.csv is a spreadsheet of synthetic promoter sequences which have been created using a Markov Process.
+
+create_synthetic_fluorescent_traces_w5.py uses these to generate MS2 fluorescent traces, contained in very_short_gene_w5_fluorescent_traces.csv.
+
+synthetic_short_gene_demo_not_pre_trained trains the model using these traces and outputs a results file (result_737978298). Running this should take about 5 minutes.
+
+single_cell_calculations_short_gene uses the inferred ML parameters to create single parameters, stored in SINGLE_CELL_PARAMETERS.csv. The ML posterior (SINGLE_CELL_POSTERIOR.csv) and corresponding fluorescent signals (SINGLE_CELL_SIGNALS.csv) are also output. 

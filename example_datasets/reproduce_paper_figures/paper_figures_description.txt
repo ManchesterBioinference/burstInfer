@@ -1,0 +1,1 @@
+Make the three plots from the paper showing parameter convergence and the running time comparison. Running the scripts outputs the images as PDF's. 
