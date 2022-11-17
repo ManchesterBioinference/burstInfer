@@ -1,0 +1,9 @@
+synthetic_promoter_traces_w13.csv is a spreadsheet of synthetic promoter sequences which have been created using a Markov Process.
+
+create_synthetic_fluorescent_traces_w13.py uses these to generate MS2 fluorescent traces, contained in synthetic_fluorescent_traces_w13.csv.
+
+synthetic_long_gene_demo_not_pre_trained.py trains the model using these traces and outputs a results file (result_694826350). Running this locally will take longer than the short example. An example shell script that would be used to run multiple instances of the code on a shared computing facility is included in batch_script1.sh. 
+
+The results folder contains the output of running the model 50 times. process_model_output takes these results, compiles them and finds the ML result.
+
+synthetic_long_gene_demo_single_cell_parameters.py uses the inferred ML parameters to create single parameters, stored in SINGLE_CELL_PARAMETERS.csv. The ML posterior (SINGLE_CELL_POSTERIOR.csv) and corresponding fluorescent signals (SINGLE_CELL_SIGNALS.csv) are also output. 

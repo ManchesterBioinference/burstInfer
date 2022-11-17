@@ -1,0 +1,1 @@
+The code contained in these folders reproduces figures from Chapter Three of the thesis. Wherever possible the entire training pipeline has been included, from original datasets / synthetic code generation to plotting of results. The PDF's were assembled together in latex for the thesis. The plotting code / final PDF's are generally in the 'results' folders.
